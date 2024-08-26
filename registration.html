@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta harset="utf-8"/>
+    </head>
+    <body>
+        <div class="Admission-Form">
+            <!---We will create the form here-->
+        </div>
+        <h2>Muscle Gym Member Registration</h2>
+        <form>
+            <!--Form Body-->
+            Name:<input type="text" placeholder="Firstname" />
+            <input type="text" placeholder="Lastname"/>
+            <br/><br/>
+            Phone Number: <input type="tel"/><br/><br/>
+            Email:<input type="email"/> <br/><br/>
+            Age:<input type="number"/><br/><br/>
+            Date of Birth:<input type="date"/><br/><br/>
+            Gender:
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>female
+            <input type="radio" name="gender" value="others"/>others
+            <br/>
+            Address:
+            <textarea cols="30" rows="5"></textarea><br/>
+            <br/>
+            <fieldset>
+                <legend>Membership Details</legend>
+                Joining Date:<input type="date"/><br/>
+                Membership Type:
+                <input type="radio" name="membership" value="basic"/>Basic(Gym)
+                <input type="radio" name="membership" value="gold"/>Gold(Gym + Cardio)
+                <input type="radio" name="membership" value="premium"/>Premium(Gym + Cardio + Crossfit)<br/>
+                <br/>
+                Duration:
+                <select>
+                    <option value="1">1 Month</option>
+                    <option value="3">3 Months</option>
+                    <option value="6">6 Months</option>
+                    <option value="12">1 Year </option>
+                </select>
+                <br/>
+                <br/>
+                Are you Interested in any of the following? <br/>
+                <input type="checkbox" name="add-on" value="yoga"/> Yoga
+                <input type="checkbox" name="add-on" value="free-pt"/> Free PT Trail
+                <input type="checkbox" name="add-on" value="zumba"/> Zumba
+                <input type="checkbox" name="add-on" value="piloxing"/> Piloxing
+                <input type="checkbox" name="add-on" value="diet"/> Diet Plan
+                
+            </fieldset>
+            
+            <!--All the Previous Code here-->
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <a href="/Users/vali/Desktop/gym/src/index.html">Back</a>
+
+    </body>
+</html>
